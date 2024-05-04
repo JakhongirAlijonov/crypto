@@ -104,10 +104,12 @@ let options= {
     data={data}
     height={400}
      />
+      <div className="line-btns">
       <button className={ days == 1 ? "active" : "" } onClick={handleDay}>24 hours</button>
       <button  className={ days == 30 ? "active" : "" } onClick={handleMonth}>30 days</button>
       <button className={ days == 90 ? "active" : "" } onClick={handle3Month}>3 months</button>
       <button className={ days == 365 ? "active" : "" } onClick={handleYear}>1 year</button>
+      </div>
     </div>
   );
 }

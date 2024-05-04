@@ -326,7 +326,7 @@ button:hover {
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 440px){
   .table-headers {
     position: sticky;
     top: 0;
@@ -343,5 +343,11 @@ button:hover {
   }
   .hero input{
     width: 80%;
+  }
+  .line-btns{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
